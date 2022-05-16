@@ -1,0 +1,102 @@
+.card{
+    width: 31rem;
+    min-height: 460px;
+    margin: 2vw;
+    border-radius: 2vw;
+    border: 2px solid #20dad8;
+    box-shadow: 3px 3px 6px #20dad8;
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+}
+
+.card .title{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+    min-height: 13rem;
+}
+.card .title h2{
+    width: 5vw;
+    font-size: 3rem;
+    margin-right: 5rem;
+    margin-top: 1vw;
+    display: flex;
+    justify-content: center;
+}
+.info-card{
+    display: flex;
+    flex-direction: column;
+    min-height: 20rem;
+}
+.info-card p{
+    color: black;
+}
+.desc-tipo{
+    display: flex;
+    margin-top: 1vw;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+    min-height: 20rem;
+    max-height: 20rem;
+    overflow: hidden;
+}
+.descripcion{
+    width: 80%;
+    font-size: 1.5rem;
+    padding-right: .5vw;
+    padding-left: .5vw;
+}
+.tipo{
+    width: 30%;
+    font-size: 2.2rem;
+}
+.botones{
+    padding-top: 2vw;
+    margin-top: 2vw;
+    min-height: 3rem;
+    max-height: 5rem;
+    margin-bottom: 1vw;
+}
+.botones a{
+    text-decoration: none;
+    color: #20dad8;
+    font-size: 2.5rem;
+    background-color: black;
+    padding: .5vw 1vw;
+    margin: 2.5vw;
+    border-radius: 2vw;
+    cursor: pointer;
+}
+.botones a:hover{
+    background-color: #20dad8;
+    color: black;
+    border: 2px solid black;
+    font-weight: 600;
+}
+
+@media (max-width:500px){
+    .card .title h2{
+        display: none;
+    }
+    .card{
+        min-height: 100px !important;
+    }
+    .desc-tipo{
+        flex-direction: column;
+        max-height: auto !important;
+        min-height: auto !important;
+        height: auto !important;
+    }
+    .tipo{
+        order: 1;
+        margin-bottom: 3vw;
+        width: 100%;
+        text-align: start;
+    }
+    .descripcion{
+        order: 2;
+        width: 100%;
+    }
+}

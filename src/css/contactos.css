@@ -1,0 +1,75 @@
+.contactos{
+    background-color: #20dad8;
+    width: 100%;
+    margin-top: -4vw;
+    padding-bottom: 2vw;
+    padding-top: 5vw;
+    color: black;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    font-size: 4vw;
+    text-align: center;
+}
+.contactos div{
+    text-align: center;
+}
+svg{
+    font-size: 5vw !important;
+    color: black;
+    margin: .5vw;
+}
+svg:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+@media(max-width:1000px){
+    p{
+        font-size: 5vw;
+    }
+    svg{
+        font-size: 6vw !important;
+    }
+}
+@media(max-width:750px){
+    p{
+        font-size: 6vw;
+    }
+    svg{
+        font-size: 7vw !important;
+    }
+}
+@media(max-width:650px){
+    p{
+        font-size: 7vw;
+    }
+    svg{
+        font-size: 8vw !important;
+    }
+}
+@media(max-width:520px){
+    p{
+        font-size: 8vw;
+    }
+    svg{
+        font-size: 9vw !important;
+    }
+}
+@media(max-width:420px){
+    p{
+        font-size: 9vw;
+    }
+    svg{
+        font-size: 10vw !important;
+    }
+}
+@media(max-width:360px){
+    p{
+        font-size: 10vw;
+    }
+    svg{
+        font-size: 11vw !important;
+    }
+}

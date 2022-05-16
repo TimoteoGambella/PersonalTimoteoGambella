@@ -1,0 +1,38 @@
+/* .color1 {color: black;}
+.color2 {color: #122c42;}
+.color3 {color: #146389;}
+.color4 {color: #20a2d8;}
+.color5 {color: #20dad8;} */
+
+@import url('https://fonts.googleapis.com/css2?family=Flamenco&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    user-select: none;
+    scroll-behavior: smooth;
+}
+
+*::-webkit-scrollbar {
+    width: 13px;
+}
+*::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 2vw;
+}
+
+*::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+body{
+    font-family: 'Flamenco', cursive;
+    font-weight: 400;
+    color: #20dad8;
+    background-color: black;
+}
+
+.App{
+    background-color: #20dad8;
+    margin-top: -3vw;
+}

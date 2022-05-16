@@ -1,0 +1,38 @@
+.iconos-container{
+    margin-left: 5vw;
+}
+.iconos-container img{
+    width: 3.5vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-top: 2vw;
+}
+@media (max-width:950px){
+    .iconos-container img{
+        width: 4vw;
+    }
+}
+@media (max-width:700px){
+    .iconos-container img{
+        width: 4.5vw;
+    }
+}
+@media (max-width:600px){
+    .iconos-container{
+        margin-left: 2vw;
+    }
+    .iconos-container img{
+        width: 5.5vw;
+    }
+}
+@media (max-width:460px){
+    .iconos-container img{
+        margin-top: 4vw;
+        width: 6.2vw;
+    }
+}
+@media (max-width:360px){
+    .iconos-container img{
+        width: 8vw;
+    }
+}

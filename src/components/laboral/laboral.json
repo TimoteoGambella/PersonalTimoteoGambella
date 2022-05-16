@@ -1,0 +1,14 @@
+[
+    {
+        "titulo":"JavaScript",
+        "descripcion":"Curso de javascript avanzado. Integra promesas y asyncs. Integra promesas y asyncs",
+        "lugar":"Udemy",
+        "año":"2022"
+    },
+    {
+        "titulo":"JavaScript2",
+        "descripcion":"Curso de javascript avanzado. Integra promesas y asyncs. Integra promesas y asyncs",
+        "lugar":"Udemy academia",
+        "año":"2022"
+    }
+]
