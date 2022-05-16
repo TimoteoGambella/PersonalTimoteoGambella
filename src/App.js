@@ -6,6 +6,7 @@ import Header from './components/header/Header';
 import SobreMi from './components/sobremi/Sobremi';
 import Proyectos from "./components/proyectos/Proyectos";
 import Conctactos from "./components/contacto/Contacto";
+import up from "./up.png"
 
 export default function App() {
 
@@ -38,6 +39,12 @@ export default function App() {
           <SepLeft/>
 
           <Conctactos/>
+
+          <div className="container-up">
+            <a href="#header">
+              <img src={up} alt={"up"} width={50} height={50}/>
+            </a>
+          </div>
         </>
       }
     </>

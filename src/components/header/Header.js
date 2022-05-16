@@ -6,7 +6,7 @@ export default function Header({animation1,animation2,height,disp}){
     const [display,setDisplay]=useState(disp)
 
     return(
-        <div className="header" style={{animationName:`${animation2}`, height:`${height}`}}>
+        <div className="header" style={{animationName:`${animation2}`, height:`${height}`}} id="header">
 
             <div className={animation1}>
                 {display==="none"?

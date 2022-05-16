@@ -27,7 +27,7 @@ export default function SobreMi(){
                 </div>
                 <div data-aos="fade-up" className="cv" style={{transitionDuration:"3s"}}>
                     <div>
-                        <img src={fotoCarnet} alt="Persona" width={120} height={210}/>
+                        <img src={fotoCarnet} alt="Persona"/>
                     </div>
                     <div>
                         <a href="https://drive.google.com/file/d/1oV3-LlxGdc42ioaYivVkMLm2l4eiOmlC/view?usp=sharing" target={"_blank"} rel="noreferrer">Ver CV</a>

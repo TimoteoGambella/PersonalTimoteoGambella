@@ -13,14 +13,14 @@ export default function Iconos(){
     
     return(
         <div className="iconos-container">
-            <img src={html} alt="HTML" width={50} height={45}/>
-            <img src={css} alt="CSS" width={50} height={45}/>
-            <img src={js} alt="JS" width={50} height={45}/>
-            <img src={react} alt="REACT" width={50} height={45}/>
-            <img src={scss} alt="SCSS" width={50} height={45}/>
-            <img src={boot} alt="BOOTSTRAP" width={50} height={45}/>
-            <img src={next} alt="NEXT" width={50} height={45}/>
-            <img src={github} alt="GITHUB" width={50} height={45}/>
+            <img src={html} alt="HTML"/>
+            <img src={css} alt="CSS"/>
+            <img src={js} alt="JS"/>
+            <img src={react} alt="REACT"/>
+            <img src={scss} alt="SCSS"/>
+            <img src={boot} alt="BOOTSTRAP"/>
+            <img src={next} alt="NEXT"/>
+            <img src={github} alt="GITHUB"/>
         </div>
     )
 }
