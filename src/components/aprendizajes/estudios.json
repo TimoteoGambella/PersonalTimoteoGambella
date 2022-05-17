@@ -1,7 +1,7 @@
 [
     {
         "titulo":"ReactJs 3|4 Carrera",
-        "descripcion":"Tercer parte de la carrera de 'Desarrollador FullStack' completada. Contenidos: JSX, Routers, Context, Hooks, Firebase. Trabajo final: 9",
+        "descripcion":"Tercera parte de la carrera de 'Desarrollador FullStack' completada. Contenidos: JSX, Routers, Context, Hooks, Firebase. Trabajo final: 9",
         "lugar":"Coderhouse",
         "año":"2022",
         "fade":"fade-right",
@@ -27,7 +27,7 @@
         "titulo":"CSS de 0 a experto",
         "lugar":"Youtube",
         "año":"",
-        "descripcion":"Curso avanzado de CSS. Contenido: Incrementa técnicas de uso y buenas practicas. Además, genera muy buen contenido. Se realizaron varias páginas. Canal: Vida MMR",
+        "descripcion":"Curso avanzado de CSS. Contenido: Incrementa técnicas de uso y buenas prácticas. Además, genera muy buen contenido. Se realizaron varias páginas. Canal: Vida MMR",
         "fade":"fade-left",
         "estado":"Terminado"
     },
@@ -59,7 +59,7 @@
         "titulo":"Curso Phyton",
         "lugar":"Capacitarte",
         "año":"",
-        "descripcion":"Curso inicial a Phyton. Se vieron temas desde 0 y se avanzo a temas mas complejos.",
+        "descripcion":"Curso inicial a Phyton. Se vieron temas desde 0 y se avanzó a temas más complejos.",
         "fade":"fade-left",
         "estado":"Terminado"
     }
