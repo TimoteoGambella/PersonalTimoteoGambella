@@ -1,89 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Flamenco&display=swap');
 
-@keyframes escribirTitle {
-    from {
-        width: 30%;
-        color: black;
-        background-color: black;
-    }
-    to {
-        width: 0%;
-        color: black;
-        background-color: black;
-    }
-}
-@keyframes escribirTitle2 {
-    from {
-        width: 25%;
-        color: #20dad8;
-        background-color: #20dad8;
-    }
-    to {
-        width: 0%;
-        color: #20dad8;
-        background-color: #20dad8;
-    }
-}
 .title{
     font-size: 5vw;
 }
-.title .aos-init{
+.title p{
     text-align: center;
     font-weight: 600;
     transition-duration:"3s";
 }
-.title .aos-animate{
-    text-align: center;
-    font-family: 'Flamenco', cursive;
-    font-weight: 600;
-}
-.title .aos-animate .negro{
-    position: absolute;
-    background-color: #20dad8;
-    color: #20dad8;
-    width: 0;
-    right: 0;
-    margin-right: 34%;
-    height: 5.5vw;
-    border-left: 1px solid #20dad8;
-    animation: escribirTitle 1.8s steps(90) alternate;
-}
-.title .aos-animate .celeste{
-    position: absolute;
-    background-color: black;
-    color: black;
-    width: 0;
-    right: 0;
-    margin-right: 40%;
-    height: 5.5vw;
-    border-left: 1px solid black;
-    animation: escribirTitle2 1.8s steps(90) alternate;
-}
 .subTitle{
     font-size: 4vw;
 }
-.subTitle .aos-init{
+.subTitle p{
     text-align: center;
     font-weight: 600;
     transition-duration:"1s";
     margin-top: 3vw;
     margin-top: 6vw;
 }
-.subTitle .aos-animate p{
+.subTitle p{
     text-shadow: 0 0 30px rgb(0, 0, 0);
 }
 
 @media (max-width:950px){
     .title{
         font-size: 6.5vw;
-    }
-    .title .aos-animate .negro{
-        margin-right: 29%;
-        height: 7vw;
-    }
-    .title .aos-animate .celeste{
-        margin-right: 35%;
-        height: 7vw;
     }
     .subTitle{
         font-size: 5.2vw;
@@ -92,14 +33,6 @@
 @media (max-width:650px){
     .title{
         font-size: 8vw;
-    }
-    .title .aos-animate .negro{
-        margin-right: 25%;
-        height: 9vw;
-    }
-    .title .aos-animate .celeste{
-        margin-right: 32%;
-        height: 9vw;
     }
     .subTitle{
         font-size: 6.5vw;
@@ -110,15 +43,7 @@
     .title{
         font-size: 9.5vw;
     }
-    .title .aos-animate .negro{
-        animation: none;
-    }
-    span{
-        display: none;
-    }
-    .title .aos-animate .celeste{
-        animation: none;
-    }
+
     .subTitle{
         font-size: 7.5vw;
     }

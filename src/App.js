@@ -6,15 +6,15 @@ import Header from './components/header/Header';
 import SobreMi from './components/sobremi/Sobremi';
 import Proyectos from "./components/proyectos/Proyectos";
 import Conctactos from "./components/contacto/Contacto";
-import up from "./up.png"
-
+import up from "./up.png";
 export default function App() {
 
   const [display,setDisplay]=useState("none")
-    
+
   useEffect(() => {
     AOS.init();
     AOS.refresh();
+    
     setTimeout(()=>{
       setDisplay("flex")
     },4900)

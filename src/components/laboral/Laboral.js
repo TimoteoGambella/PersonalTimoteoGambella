@@ -1,4 +1,5 @@
 import React,{useEffect, useState} from "react";
+import { Zoom,Fade } from "react-awesome-reveal";
 import "../../css/laboral.css"
 import data from "./laboral.json"
 
@@ -14,20 +15,24 @@ export default function Laboral({año}){
         <>
             {laboral.lenght===0?<></>:
                 <>
-                    <div className="año-container" data-aos="zoom-in" data-aos-duration="2000">
-                        <p className="año-laboral">{año}</p>
-                        <p className="año-laboral-separator">||</p>
-                    </div>
+                    <Fade duration={4000}>
+                        <div className="año-container">
+                            <p className="año-laboral">{año}</p>
+                            <p className="año-laboral-separator">||</p>
+                        </div>
+                    </Fade>
                     <div className="laboral-flex">
                         {laboral.filter(dat=>dat.año===año).map(data=>(
                             <div className="laboral" key={data.titulo}>
-                                <div className="laboral-container" data-aos="zoom-in" data-aos-duration="1500">
-                                    <div className="container-encabezado-laboral">
-                                        <h2>{data.titulo}</h2>
-                                        <p>{data.lugar}</p>
+                                <Zoom duration={2500}>
+                                    <div className="laboral-container">
+                                        <div className="container-encabezado-laboral">
+                                            <h2>{data.titulo}</h2>
+                                            <p>{data.lugar}</p>
+                                        </div>
+                                        <p>{data.descripcion}</p>
                                     </div>
-                                    <p>{data.descripcion}</p>
-                                </div>
+                                </Zoom>
                             </div>
                         ))}
                     </div>

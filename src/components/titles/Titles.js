@@ -1,14 +1,17 @@
 import React from "react";
 import "../../css/titles.css"
+import { JackInTheBox } from "react-awesome-reveal";
 
 export default function Titles({title,fondo}){
 
 
     return(
-        <div className="title">
-            <div data-aos="fade-up" style={{transitionDuration:"3s"}}>
-                <p className="title">{title}<span className={fondo}></span></p>
+        <JackInTheBox duration={2000}>
+            <div className="title">
+                <div>
+                    <p className="title">{title}</p>
+                </div>
             </div>
-        </div>
+        </JackInTheBox>
     )
 }

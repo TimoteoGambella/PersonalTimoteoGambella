@@ -6,7 +6,7 @@ import fotoCarnet from "./fotoCara.png"
 import Aprendizaje from "../aprendizajes/Aprendizajes";
 import Laboral from "../laboral/Laboral";
 import Iconos from "../iconos/Iconos";
-
+import { Slide } from "react-awesome-reveal";
 export default function SobreMi(){
 
     return(
@@ -14,16 +14,20 @@ export default function SobreMi(){
             <div className="sobreMi-bio">
                 <div className="bio">
                     <Titles title={"SOBRE MI"}  fondo={"negro"}/>
-                    <p data-aos="fade-up" style={{transitionDuration:"3s"}} className="biografia">
-                        Empecé a estudiar programación en 2019. Durante la pandemia me interiorice en el tema y encontré mi verdadera pasión.
-                        Decidí dejar la carrera que estaba cursando para empezar a estudiar programación web. <br/>
-                        Hoy en día me siento feliz y agradezco haber tomado dicha decisión. <br/>
-                        Me encuentro cursando la carrera "Desarrollo Full Stack" en Coderhouse, y trabajando como tutor en los cursos de "Desarrollo Web" en la misma plataforma. <br/>
-                        Estoy dispuesto a crecer en lo profesional, adquiriendo nuevos conocimientos y técnicas de programación.
-                    </p>
-                    <div className="iconos-container" data-aos="fade-up" style={{transitionDuration:"3s"}}>
-                        <Iconos/>
+                    <Slide duration={1500} direction="up">
+                        <p className="biografia">
+                            Empecé a estudiar programación en 2019. Durante la pandemia me interiorice en el tema y encontré mi verdadera pasión.
+                            Decidí dejar la carrera que estaba cursando para empezar a estudiar programación web. <br/>
+                            Hoy en día me siento feliz y agradezco haber tomado dicha decisión. <br/>
+                            Me encuentro cursando la carrera "Desarrollo Full Stack" en Coderhouse, y trabajando como tutor en los cursos de "Desarrollo Web" en la misma plataforma. <br/>
+                            Estoy dispuesto a crecer en lo profesional, adquiriendo nuevos conocimientos y técnicas de programación.
+                        </p>
+                    <div className="iconos-container">
+                        <Slide duration={2000} direction="up">
+                            <Iconos/>
+                        </Slide>
                     </div>
+                    </Slide>
                 </div>
                 <div data-aos="fade-up" className="cv" style={{transitionDuration:"3s"}}>
                     <div>

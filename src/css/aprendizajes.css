@@ -13,6 +13,8 @@
     justify-content: center;
     margin: auto;
     text-align: center;
+    overflow-x: hidden;
+    padding-bottom: 1vw;
 }
 .aprendizaje-container{
     width: 40%;

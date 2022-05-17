@@ -1,6 +1,7 @@
 import React,{useEffect, useState} from "react";
 import "../../css/aprendizajes.css"
 import data from "./estudios.json"
+import { Fade, Slide } from "react-awesome-reveal";
 
 export default function Aprendizaje(){
     
@@ -16,20 +17,24 @@ export default function Aprendizaje(){
                 estudios.map(data=>(
                     <div className="aprendiazaje" key={data.titulo}>
                         {data.año!==""?
-                            <div data-aos="zoom-in" data-aos-duration="2000">
+                        <Fade duration={4000}>
+                            <div>
                                 <p className="año-aprendizaje">{data.año}</p>
                                 <p className="año-aprendizaje-separator">||</p>
                             </div>
+                        </Fade>
                         :<></>
                         }
-                        <div className="aprendizaje-container" data-aos={data.fade} data-aos-duration="1500">
-                            <div className="container-encabezado">
-                                <h2>{data.titulo}</h2>
-                                <p>{data.lugar}</p>
+                        <Slide duration={3000} direction={data.slide}>
+                            <div className="aprendizaje-container">
+                                <div className="container-encabezado">
+                                    <h2>{data.titulo}</h2>
+                                    <p>{data.lugar}</p>
+                                </div>
+                                <p>{data.descripcion}</p>
+                                <p className="estado">{data.estado}</p>
                             </div>
-                            <p>{data.descripcion}</p>
-                            <p className="estado">{data.estado}</p>
-                        </div>
+                        </Slide>
                     </div>
                 ))
             }
