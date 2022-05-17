@@ -25,7 +25,7 @@ export default function Aprendizaje(){
                         </Fade>
                         :<></>
                         }
-                        <Slide duration={3000} direction={data.slide}>
+                        <Slide duration={4000} direction={data.slide}>
                             <div className="aprendizaje-container">
                                 <div className="container-encabezado">
                                     <h2>{data.titulo}</h2>

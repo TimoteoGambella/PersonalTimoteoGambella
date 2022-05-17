@@ -24,7 +24,7 @@ export default function Laboral({año}){
                     <div className="laboral-flex">
                         {laboral.filter(dat=>dat.año===año).map(data=>(
                             <div className="laboral" key={data.titulo}>
-                                <Zoom duration={2500}>
+                                <Zoom duration={3000}>
                                     <div className="laboral-container">
                                         <div className="container-encabezado-laboral">
                                             <h2>{data.titulo}</h2>
