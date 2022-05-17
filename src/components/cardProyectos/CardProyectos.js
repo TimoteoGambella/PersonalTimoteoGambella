@@ -5,13 +5,15 @@ export default function CardProyectos({fondo,fondoSML,tipo,descripcion,title,pag
 
     return(
         <>
-            <div className="card" style={{background:`url(${fondo})`,backgroundRepeat:"no-repeat",backgroundColor:"#20dad8"}}>
+            <div className="card" style={{background:`url(${fondo})`}}>
                 <div className="title">
                     <h2>{title}</h2>
                 </div>
                 <div className="info-card">
                     <div className="desc-tipo">
-                        <p className="descripcion">{descripcion}</p>
+                        <div className="descripcion-container">
+                            {descripcion.map(desc=><><p className="descripcion">{desc}</p><br/></>)}
+                        </div>
                         <p className="tipo">{tipo}</p>
                     </div>
                     <div className="botones">
