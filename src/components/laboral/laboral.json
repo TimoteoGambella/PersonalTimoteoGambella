@@ -1,14 +1,20 @@
 [
     {
-        "titulo":"JavaScript",
-        "descripcion":"Curso de javascript avanzado. Integra promesas y asyncs. Integra promesas y asyncs",
-        "lugar":"Udemy",
+        "titulo":"Tutor en Coderhouse",
+        "descripcion":"Tutoría del curso 'Desarrollo Web'. Tengo a cargo 20 alumnos por camada y mi trabajo es guiarlos durante todo el curso. Camadas completadas: 1. Actualmente trabajando",
+        "lugar":"Coderhouse",
         "año":"2022"
     },
     {
-        "titulo":"JavaScript2",
-        "descripcion":"Curso de javascript avanzado. Integra promesas y asyncs. Integra promesas y asyncs",
-        "lugar":"Udemy academia",
+        "titulo":"Desarrollo e-commerce",
+        "descripcion":"Junto con un compañero desarrollamos una página e-commerce 100% funcional. El lenguaje utilizado fue Next/React. Pueden ver la página en el apartado de 'Proyectos'. Actualmente trabajando",
+        "lugar":"Personal",
         "año":"2022"
+    },
+    {
+        "titulo":"Software gastronómico",
+        "descripcion":"Desarrollo de software para emprendimientos gastronómicos. Trabaje solo y con el lenguaje de Visual Basic. Consiste en un programa que maneja stock, menu, toma de pedidos en el momento y generacion de resumenes. Más de 5 locales cuentan con el mismo.",
+        "lugar":"Personal",
+        "año":"2020"
     }
 ]

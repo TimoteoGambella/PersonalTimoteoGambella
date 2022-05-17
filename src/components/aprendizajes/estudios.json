@@ -1,18 +1,66 @@
 [
     {
-        "titulo":"JavaScript",
-        "descripcion":"Curso de javascript avanzado. Integra promesas y asyncs. Integra promesas y asyncs",
-        "lugar":"Udemy",
+        "titulo":"ReactJs 3|4 Carrera",
+        "descripcion":"Tercer parte de la carrera de 'Desarrollador FullStack' completada. Contenidos: JSX, Routers, Context, Hooks, Firebase. Trabajo final: 9",
+        "lugar":"Coderhouse",
         "año":"2022",
         "fade":"fade-right",
         "estado":"Terminado"
     },
     {
-        "titulo":"JavaScript2",
-        "descripcion":"Curso de javascript avanzado. Integra promesas y asyncs. Integra promesas y asyncs",
-        "lugar":"Udemy academia",
+        "titulo":"Curso de ReactJs",
+        "lugar":"Youtube",
         "año":"",
+        "descripcion":"Curso de React avanzado. Contenido: JSX, Routers, ES7 & Babel, Events, Express, Consumo de APIs, Hooks, Firebase. Canal: Raul Palacios",
+        "fade":"fade-left",
+        "estado":"En curso"
+    },
+    {
+        "titulo":"Curso React",
+        "lugar":"Youtube",
+        "año":"",
+        "descripcion":"Curso de React Hooks avanzado. Contenido: Hooks, Hook-Form, React-Router, Redux, Ducks, Material UI, Next. Canal: Bluuweb",
         "fade":"fade-right",
+        "estado":"Terminado"
+    },
+    {
+        "titulo":"CSS de 0 a experto",
+        "lugar":"Youtube",
+        "año":"",
+        "descripcion":"Curso avanzado de CSS. Contenido: Incrementa técnicas de uso y buenas practicas. Además, genera muy buen contenido. Se realizaron varias páginas. Canal: Vida MMR",
+        "fade":"fade-left",
+        "estado":"Terminado"
+    },
+    {
+        "titulo":"JavaScript 2|4 Carrera",
+        "lugar":"Coderhouse",
+        "año":"",
+        "descripcion":"Segunda parte de la carrera de 'Desarrollador FullStack' completada. Contenido: JS, Storage/Json, DOM, jQuery, AJAX. Trabajo final: 10",
+        "fade":"fade-left",
+        "estado":"Terminado"
+    },
+    {
+        "titulo":"Desarrollo Web 1|4 Carrera",
+        "lugar":"Coderhouse",
+        "año":"2021",
+        "descripcion":"Primera parte de la carrera de 'Desarrollador FullStack' completada. Contenido: HTML, CSS, Bootstrap, SASS, SEO, GitHub. Trabajo final: 7",
+        "fade":"fade-left",
+        "estado":"Terminado"
+    },
+    {
+        "titulo":"FrontEnd Web Developer",
+        "lugar":"Udemy",
+        "año":"",
+        "descripcion":"Curso avanzado de FrontEnd. Contenido: Elementos de HTML, Propiedades y estilos en CSS, Forms, Box Model, Flexbox, Grid, JavaScript general, POO, DOM, Manejo de errores. Profesor: Global Mentoring Ing. Ubaldo Acosta",
+        "fade":"fade-left",
+        "estado":"Terminado"
+    },
+    {
+        "titulo":"Curso Phyton",
+        "lugar":"Capacitarte",
+        "año":"",
+        "descripcion":"Curso inicial a Phyton. Se vieron temas desde 0 y se avanzo a temas mas complejos.",
+        "fade":"fade-left",
         "estado":"Terminado"
     }
 ]

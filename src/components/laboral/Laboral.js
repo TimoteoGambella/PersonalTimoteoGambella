@@ -19,7 +19,7 @@ export default function Laboral({año}){
                         <p className="año-laboral-separator">||</p>
                     </div>
                     <div className="laboral-flex">
-                        {laboral.map(data=>(
+                        {laboral.filter(dat=>dat.año===año).map(data=>(
                             <div className="laboral" key={data.titulo}>
                                 <div className="laboral-container" data-aos="zoom-in" data-aos-duration="1500">
                                     <div className="container-encabezado-laboral">

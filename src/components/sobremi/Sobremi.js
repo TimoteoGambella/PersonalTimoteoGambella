@@ -42,6 +42,7 @@ export default function SobreMi(){
                 <br/>
                 <SubTitles title={"EXPERIENCIA LABORAL"}/>
                 <Laboral año={"2022"}/>
+                <Laboral año={"2020"}/>
             </div>
         </div>
     )
