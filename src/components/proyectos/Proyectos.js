@@ -18,7 +18,7 @@ export default function Proyectos(){
             <div className="proyectos" data-aos="zoom-in" data-aos-duration="2500">
                 <CardProyectos fondo={card1} tipo={"Sitio Real"}
                     title={"Rose Aromas"} page={"https://www.rosearomas.com.ar/"} git={"https://github.com/Timofede/RoseAromas"}
-                    descripcion={["Sitio web con e-commerce para emprendimiento de Zárate.","Se utilizó Next/React. Contiene 4 paginas estáticas y la tienda funcional.", "Contiene la integración completa de Mercadopago para los cobros." ,"Se analizó el SEO y contiene Google Analytics.","Se utilizo Sass para estilos."]}
+                    descripcion={["Sitio web con e-commerce para emprendimiento de Zárate.","Se utilizó Next/React. Contiene 4 paginas estáticas y la tienda funcional.", "Contiene la integración completa de Mercadopago para los cobros." ,"Se analizó el SEO y contiene Google Analytics. Se utilizo Sass para estilos."]}
                 />
                 <CardProyectos fondo={card2} tipo={"Sitio Ficticio"}
                     descripcion={["Sitio web inspirado en local de hamburguesas. Fué entregado como trabajo final del curso 'Desarrollo Web'.","Se utilizo HTML y Sass para lograr la interfaz.","Se utilizó bootstrap en ciertas páginas.","El sitio web es 100% responsive."]}
