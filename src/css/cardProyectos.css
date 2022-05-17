@@ -1,5 +1,5 @@
 .card{
-    width: 31rem;
+    max-width: 31rem;
     min-height: 460px;
     margin: 2vw;
     border-radius: 2vw;
