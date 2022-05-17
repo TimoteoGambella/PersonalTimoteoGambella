@@ -12,7 +12,7 @@ export default function CardProyectos({fondo,fondoSML,tipo,descripcion,title,pag
                 <div className="info-card">
                     <div className="desc-tipo">
                         <div className="descripcion-container">
-                            {descripcion.map(desc=><><p className="descripcion">{desc}</p><br/></>)}
+                            {descripcion.map(desc=><div key={desc}><p className="descripcion">{desc}</p><br/></div>)}
                         </div>
                         <p className="tipo">{tipo}</p>
                     </div>
