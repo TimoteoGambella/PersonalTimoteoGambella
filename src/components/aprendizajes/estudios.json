@@ -1,9 +1,17 @@
 [
     {
+        "titulo":"Skill Up React",
+        "descripcion":"Curso avanzado de React con el objetivo de afrontar el screening técnico de Alkemy.",
+        "lugar":"Alkemy",
+        "año":"2022",
+        "slide":"left",
+        "estado":"Terminado"
+    },
+    {
         "titulo":"ReactJs 3|4 Carrera",
         "descripcion":"Tercera parte de la carrera de 'Desarrollador FullStack' completada. Contenidos: JSX, Routers, Context, Hooks, Firebase. Trabajo final: 9",
         "lugar":"Coderhouse",
-        "año":"2022",
+        "año":"",
         "slide":"right",
         "estado":"Terminado"
     },
