@@ -19,7 +19,7 @@ export default function Proyectos(){
             <div className="proyectos">
                 <Zoom duration={2500}>
                     <CardProyectos fondo={card1} tipo={"Sitio Real"}
-                        title={"Rose Aromas"} page={"https://www.rosearomas.com.ar/"} git={"https://github.com/Timofede/RoseAromas"}
+                        title={"Rose Aromas"} page={"https://www.rosearomas.com.ar/"} git={"https://github.com/TimoteoGambella/RoseAromasPage"}
                         descripcion={["Sitio web con e-commerce para emprendimiento de Zárate.","Se utilizó Next/React. Contiene 4 páginas estáticas y la tienda funcional.", "Contiene la integración completa de Mercadopago para los cobros." ,"Se analizó el SEO y contiene Google Analytics. Se utilizó Sass para estilos."]}
                     />
                 </Zoom>
