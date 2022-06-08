@@ -2,6 +2,7 @@ import React from "react";
 import "../../css/proyectos.css"
 import CardProyectos from "../cardProyectos/CardProyectos";
 import Titles from "../titles/Titles";
+import { Zoom } from "react-awesome-reveal";
 import card1 from "./card1.png"
 import card2 from "./card2.png"
 import card3 from "./card3.png"
@@ -9,7 +10,7 @@ import card4 from "./card4.png"
 import card5 from "./card5.png"
 import card6 from "./card6.png"
 import card7 from "./card7.png"
-import { Zoom } from "react-awesome-reveal";
+import card8 from "./card8.png"
 
 export default function Proyectos(){
 
@@ -57,6 +58,12 @@ export default function Proyectos(){
                     <CardProyectos fondo={card7} tipo={"Sitio Ficticio"}
                         descripcion={["Página desarrollada para practicar HTML, CSS (animaciones).","Es una página que muestra la rotacion de un cubo transparente. El mismo superpone el contraste de sus colores generando un efecto visual entretenido.","La página web es 100% responsiva"]}
                         title={"Cubo Dinámico"} page={"https://timoteogambella.github.io/Cubo3DDinamico/"} git={"https://github.com/TimoteoGambella/Cubo3DDinamico"}
+                    />
+                </Zoom>
+                <Zoom duration={2500}>
+                    <CardProyectos fondo={card8} tipo={"Sitio Ficticio"}
+                        descripcion={["Página desarrollada para practicar React y Next.","Es un sitio web inspirado en Netflix. Consume la API de MTDB.","La página web es 100% responsiva"]}
+                        title={"MoviesPage"} page={"https://movie-page-theta.vercel.app/"} git={"https://github.com/TimoteoGambella/MoviePage"}
                     />
                 </Zoom>
             </div>
