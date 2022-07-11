@@ -11,6 +11,7 @@ import card5 from "./card5.png"
 import card6 from "./card6.png"
 import card7 from "./card7.png"
 import card8 from "./card8.png"
+import card9 from "./card9.png"
 
 export default function Proyectos(){
 
@@ -18,6 +19,12 @@ export default function Proyectos(){
         <div id="proyectos">
             <Titles title={"Proyectos"} fondo={"celeste"}/>
             <div className="proyectos">
+                <Zoom duration={2500}>
+                    <CardProyectos fondo={card9} tipo={"Sitio Ficticio"}
+                        title={"E-commerce"} page={"diseno-e-commerce-vercel.vercel.app"} git={"https://github.com/TimoteoGambella/Diseno-E-Commerce"}
+                        descripcion={["Sitio web con e-commerce de prueba.","Se utilizó Next/React. Contiene una tienda no funcional.", "Diseño 100% personal." ,"Se utilizó Sass para estilos."]}
+                    />
+                </Zoom>
                 <Zoom duration={2500}>
                     <CardProyectos fondo={card1} tipo={"Sitio Real"}
                         title={"Rose Aromas"} page={"https://www.rosearomas.com.ar/"} git={"https://github.com/TimoteoGambella/RoseAromasPage"}
