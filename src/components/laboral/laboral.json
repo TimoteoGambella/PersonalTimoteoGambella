@@ -1,14 +1,26 @@
 [
     {
         "titulo":"Tutor en Coderhouse",
-        "descripcion":"Tutoría del curso 'Desarrollo Web'. Tengo a cargo 20 alumnos por camada y mi trabajo es guiarlos durante todo el curso. Camadas completadas: 1. Actualmente trabajando",
+        "descripcion":"Tutoría del curso 'Desarrollo Web'. Tengo a cargo alumnos y mi trabajo es guiarlos durante todo el curso. Camadas completadas: 4. Actualmente trabajando",
+        "lugar":"Coderhouse",
+        "año":"2022"
+    },
+    {
+        "titulo":"Tutor en Coderhouse",
+        "descripcion":"Tutoría del curso 'React JS'. Tengo a cargo alumnos y mi trabajo es guiarlos durante todo el curso. Camadas completadas: 1. Actualmente trabajando",
         "lugar":"Coderhouse",
         "año":"2022"
     },
     {
         "titulo":"Desarrollo e-commerce",
         "descripcion":"Junto con un compañero desarrollamos una página e-commerce 100% funcional. El lenguaje utilizado fue Next/React. Pueden ver la página en el apartado de 'Proyectos'. Actualmente trabajando",
-        "lugar":"Personal",
+        "lugar":"RoseAromas",
+        "año":"2022"
+    },
+    {
+        "titulo":"Desarrollo e-commerce",
+        "descripcion":"Junto con un compañero desarrollamos una página e-commerce 100% funcional. El lenguaje utilizado fue Next/React. Pueden ver la página en el apartado de 'Proyectos'. Actualmente trabajando",
+        "lugar":"VikingsBurgers",
         "año":"2022"
     },
     {

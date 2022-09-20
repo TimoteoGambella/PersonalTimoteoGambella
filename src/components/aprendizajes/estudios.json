@@ -1,9 +1,17 @@
 [
     {
+        "titulo":"BackEnd 4|4 Carrera",
+        "descripcion":"Cuarta y ultima parte de la carrera de 'Desarrollador FullStack'. Contenidos: JS, Express, Pug & Ejs, Websockets, SQL, MongoDB, Mongoose, Firebase",
+        "lugar":"Coderhouse",
+        "año":"2022",
+        "slide":"right",
+        "estado":"En curso"
+    },
+    {
         "titulo":"Skill Up React",
         "descripcion":"Curso avanzado de React con el objetivo de afrontar el screening técnico de Alkemy.",
         "lugar":"Alkemy",
-        "año":"2022",
+        "año":"",
         "slide":"left",
         "estado":"Terminado"
     },
