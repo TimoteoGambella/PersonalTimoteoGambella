@@ -12,6 +12,7 @@ import card6 from "./card6.png"
 import card7 from "./card7.png"
 import card8 from "./card8.png"
 import card9 from "./card9.png"
+import card10 from "./card10.png"
 
 export default function Proyectos(){
 
@@ -20,6 +21,12 @@ export default function Proyectos(){
             <Titles title={"Proyectos"} fondo={"celeste"}/>
             <div className="proyectos">
                 <Zoom duration={2000}>
+                    <CardProyectos fondo={card10} tipo={"Sitio Real"}
+                        title={"E-commerce"} page={"https://vikingspage.vercel.app"} git={"#"}
+                        descripcion={["Sitio web con e-commerce para emprendimiento gastronómico de Zárate.","Se utilizó Next/React. Consta de una tienda in live.", "Contiene la integración completa de Mercadopago y formas secundarias para los cobros." ,"Se analizó el SEO y contiene Google Analytics. Se utilizó Sass para estilos."]}
+                    />
+                </Zoom>
+                <Zoom duration={2000}>
                     <CardProyectos fondo={card9} tipo={"Sitio Ficticio"}
                         title={"E-commerce"} page={"diseno-e-commerce-vercel.vercel.app"} git={"https://github.com/TimoteoGambella/Diseno-E-Commerce"}
                         descripcion={["Sitio web con e-commerce de prueba.","Se utilizó Next/React. Contiene una tienda no funcional.", "Diseño 100% personal." ,"Se utilizó Sass para estilos."]}
@@ -27,7 +34,7 @@ export default function Proyectos(){
                 </Zoom>
                 <Zoom duration={2000}>
                     <CardProyectos fondo={card1} tipo={"Sitio Real"}
-                        title={"Rose Aromas"} page={"https://www.rosearomas.com.ar/"} git={"https://github.com/TimoteoGambella/RoseAromasPage"}
+                        title={"Rose Aromas"} page={"https://www.rosearomas.com.ar/"} git={"#"}
                         descripcion={["Sitio web con e-commerce para emprendimiento de Zárate.","Se utilizó Next/React. Contiene 4 páginas estáticas y la tienda funcional.", "Contiene la integración completa de Mercadopago para los cobros." ,"Se analizó el SEO y contiene Google Analytics. Se utilizó Sass para estilos."]}
                     />
                 </Zoom>
