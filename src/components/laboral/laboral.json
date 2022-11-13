@@ -1,5 +1,11 @@
 [
     {
+        "titulo":"Desarrollador FrontEnd",
+        "descripcion":"Llevo a cabo el desarrollo front-end de grandes clientes/proyectos. Somos un grupo que se dedica al desarrollo de páginas web. Trabajando actualmente",
+        "lugar":"MansaVisual",
+        "año":"2022"
+    },
+    {
         "titulo":"Tutor en Coderhouse",
         "descripcion":"Tutoría del curso 'Desarrollo Web'. Tengo a cargo alumnos y mi trabajo es guiarlos durante todo el curso. Camadas completadas: 4. Actualmente trabajando",
         "lugar":"Coderhouse",
