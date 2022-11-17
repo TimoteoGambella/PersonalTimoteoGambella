@@ -19,7 +19,7 @@ export default function SobreMi(){
                             Empecé a estudiar programación en 2019. Durante la pandemia me interiorice en el tema y encontré mi verdadera pasión.
                             Decidí dejar la carrera que estaba cursando para empezar a estudiar programación web. <br/>
                             Hoy en día me siento feliz y agradezco haber tomado dicha decisión. <br/>
-                            Me encuentro cursando la carrera "Desarrollo Full Stack" en Coderhouse, y trabajando como tutor en los cursos de "Desarrollo Web" y "React JS" en la misma plataforma. <br/>
+                            Me encuentro cursando la carrera "Desarrollo FrontEnd" en Coderhouse, y trabajando como tutor en los cursos de "Desarrollo Web", "JavaScript" y "React JS" en la misma plataforma. <br/>
                             Estoy dispuesto a crecer en lo profesional, adquiriendo nuevos conocimientos y técnicas de programación.
                         </p>
                     <div className="iconos-container">

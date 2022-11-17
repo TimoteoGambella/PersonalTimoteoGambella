@@ -18,9 +18,9 @@ export default function Header({animation1,animation2,height,disp}){
                         </div>
                         <div className="header-info">
                             <div className="header-descripcion">
-                                <h2>Desarrollador Full Stack</h2>
-                                <p>Me encuentro estudiando la carrera de Full Stack. Soy un apasionado de la programación web.<br/>
-                                    Mi enfoque principal es el front-end. Estoy en constante aprendizaje.<br/>Me gusta el trabajo en equipo y el buen diálogo.
+                                <h2>Desarrollador FrontEnd</h2>
+                                <p>Terminé la carrera de Desarrollador FrontEnd. Soy un apasionado de la programación web.<br/>
+                                    Mi enfoque principal es el front-end, a pesar de tener conocimientos en BackEnd. Estoy en constante aprendizaje.<br/>Me gusta el trabajo en equipo y el buen diálogo.
                                 </p>
                             </div>
                             <ul>

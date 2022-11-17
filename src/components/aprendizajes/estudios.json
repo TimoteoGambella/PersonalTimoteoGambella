@@ -1,13 +1,5 @@
 [
     {
-        "titulo":"BackEnd 4|4 Carrera",
-        "descripcion":"Cuarta y ultima parte de la carrera de 'Desarrollador FullStack'. Contenidos: JS, Express, Pug & Ejs, Websockets, SQL, MongoDB, Mongoose, Firebase",
-        "lugar":"Coderhouse",
-        "año":"2022",
-        "slide":"right",
-        "estado":"En curso"
-    },
-    {
         "titulo":"Skill Up React",
         "descripcion":"Curso avanzado de React con el objetivo de afrontar el screening técnico de Alkemy.",
         "lugar":"Alkemy",
@@ -16,8 +8,8 @@
         "estado":"Terminado"
     },
     {
-        "titulo":"ReactJs 3|4 Carrera",
-        "descripcion":"Tercera parte de la carrera de 'Desarrollador FullStack' completada. Contenidos: JSX, Routers, Context, Hooks, Firebase. Trabajo final: 9",
+        "titulo":"ReactJs 3|3 Carrera Finalizada",
+        "descripcion":"Tercera parte de la carrera de 'Desarrollador FrontEnd' completada. Contenidos: JSX, Routers, Context, Hooks, Firebase. Trabajo final: 9",
         "lugar":"Coderhouse",
         "año":"",
         "slide":"right",
@@ -48,18 +40,18 @@
         "estado":"Terminado"
     },
     {
-        "titulo":"JavaScript 2|4 Carrera",
+        "titulo":"JavaScript 2|3 Carrera",
         "lugar":"Coderhouse",
         "año":"",
-        "descripcion":"Segunda parte de la carrera de 'Desarrollador FullStack' completada. Contenido: JS, Storage/Json, DOM, jQuery, AJAX. Trabajo final: 10",
+        "descripcion":"Segunda parte de la carrera de 'Desarrollador FrontEnd' completada. Contenido: JS, Storage/Json, DOM, jQuery, AJAX. Trabajo final: 10",
         "slide":"right",
         "estado":"Terminado"
     },
     {
-        "titulo":"Desarrollo Web 1|4 Carrera",
+        "titulo":"Desarrollo Web 1|3 Carrera",
         "lugar":"Coderhouse",
         "año":"2021",
-        "descripcion":"Primera parte de la carrera de 'Desarrollador FullStack' completada. Contenido: HTML, CSS, Bootstrap, SASS, SEO, GitHub. Trabajo final: 7",
+        "descripcion":"Primera parte de la carrera de 'Desarrollador FrontEnd' completada. Contenido: HTML, CSS, Bootstrap, SASS, SEO, GitHub. Trabajo final: 7",
         "slide":"left",
         "estado":"Terminado"
     },
