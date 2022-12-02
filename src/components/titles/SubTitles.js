@@ -6,7 +6,7 @@ export default function SubTitles({title}){
 
 
     return(
-        <Fade duration={5000}>
+        <Fade duration={5000} triggerOnce={true}>
             <div className="subTitle">
                 <div>
                     <p className="subTitle">{title}</p>

@@ -15,7 +15,7 @@ export default function Laboral({año}){
         <>
             {laboral.lenght===0?<></>:
                 <>
-                    <Fade duration={4000}>
+                    <Fade duration={4000} triggerOnce={true}>
                         <div className="año-container">
                             <p className="año-laboral">{año}</p>
                             <p className="año-laboral-separator">||</p>
@@ -24,7 +24,7 @@ export default function Laboral({año}){
                     <div className="laboral-flex">
                         {laboral.filter(dat=>dat.año===año).map((data,i)=>(
                             <div className="laboral" key={data.titulo+i}>
-                                <Zoom duration={3000}>
+                                <Zoom duration={3000} triggerOnce={true}>
                                     <div className="laboral-container">
                                         <div className="container-encabezado-laboral">
                                             <h2>{data.titulo}</h2>

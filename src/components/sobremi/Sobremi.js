@@ -14,7 +14,7 @@ export default function SobreMi({idioma}){
             <div className="sobreMi-bio">
                 <div className="bio">
                     <Titles title={idioma==="español"?"SOBRE MI":"ABOUT ME"}  fondo={"negro"}/>
-                    <Slide duration={1500} direction="up">
+                    <Slide duration={1500} direction="up" triggerOnce={true}>
                         {idioma==="español"?
                             <p className="biografia">
                                 Empecé a estudiar programación en 2019. Durante la pandemia me interiorice en el tema y encontré mi verdadera pasión.
@@ -33,7 +33,7 @@ export default function SobreMi({idioma}){
                             </p>
                         }
                     <div className="iconos-container">
-                        <Slide duration={2000} direction="up">
+                        <Slide duration={2000} direction="up" triggerOnce={true}>
                             <Iconos/>
                         </Slide>
                     </div>

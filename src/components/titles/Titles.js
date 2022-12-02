@@ -6,7 +6,7 @@ export default function Titles({title,fondo}){
 
 
     return(
-        <JackInTheBox duration={2000}>
+        <JackInTheBox duration={2000} triggerOnce={true}>
             <div className="title">
                 <div>
                     <p className="title">{title}</p>

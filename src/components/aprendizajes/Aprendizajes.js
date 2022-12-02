@@ -25,7 +25,7 @@ export default function Aprendizaje({idioma}){
                 estudios.map((data,i)=>(
                     <div className="aprendiazaje" key={data.titulo+i}>
                         {data.año!==""?
-                        <Fade duration={1500}>
+                        <Fade duration={1500} triggerOnce={true}>
                             <div>
                                 <p className="año-aprendizaje">{data.año}</p>
                                 <p className="año-aprendizaje-separator">||</p>
@@ -33,7 +33,7 @@ export default function Aprendizaje({idioma}){
                         </Fade>
                         :<></>
                         }
-                        <Slide duration={2000} direction={data.slide}>
+                        <Slide duration={2000} direction={data.slide} triggerOnce={true}>
                             <div className="aprendizaje-container">
                                 <div className="container-encabezado">
                                     <h2>{data.titulo}</h2>
