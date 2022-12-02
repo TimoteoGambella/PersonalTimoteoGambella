@@ -1,0 +1,38 @@
+[
+    {
+        "titulo":"FrontEnd Developer",
+        "descripcion":"I carry out Front End development for big customers/projects. At present",
+        "lugar":"MansaVisual",
+        "año":"2022"
+    },
+    {
+        "titulo":"Tutor in Coderhouse",
+        "descripcion":"Tutorship of “Web Development” course. I am in charge of a group of students and my job is to guide them during all the course. Four completed courses. At present",
+        "lugar":"Coderhouse",
+        "año":"2022"
+    },
+    {
+        "titulo":"Tutor in Coderhouse",
+        "descripcion":"Tutorship of “React Js” course. I am in charge of a group of students and my job is to guide them during all the course. Two completed courses. At present",
+        "lugar":"Coderhouse",
+        "año":"2022"
+    },
+    {
+        "titulo":"E- Commerce Development",
+        "descripcion":"I developed, with a colleague, a 100% functional commerce page. The language used was NEXT/REACT. You can see the page in  “Project Area”. At present",
+        "lugar":"RoseAromas",
+        "año":"2022"
+    },
+    {
+        "titulo":"E- Commerce Development",
+        "descripcion":"I developed, with a colleague, a 100% functional commerce page. The language used was NEXT/REACT. You can see the page in  “Project Area”. At present",
+        "lugar":"VikingsBurgers",
+        "año":"2022"
+    },
+    {
+        "titulo":"Fast Food Restaurant Software",
+        "descripcion":"I developed a Fast Food Restaurant Software using Visual Basic Language.  It consists of a programme that manages stock, menu and orders at the moment, and it provides summaries. More than five customers worked with it.",
+        "lugar":"Personal",
+        "año":"2020"
+    }
+]
