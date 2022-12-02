@@ -2,11 +2,11 @@ import { Instagram, LinkedIn, Mail, WhatsApp } from "@mui/icons-material";
 import React from "react";
 import "../../css/contactos.css"
 
-export default function Conctactos(){
+export default function Conctactos({idioma}){
 
     return(
         <div id="contactos" className="contactos">
-            <p>CONTACTO</p>
+            <p>{idioma==="español"?"CONTACTO":"CONTACT"}</p>
             <div>
                 <a href="https://wa.me/543487542190?text=Hola Timo! Ví tu pagina personal" aria-label="Whap" target={"_blank"} rel="noreferrer"><WhatsApp/></a>
                 <a href="mailto:timi.gambella@hotmail.com" aria-label="Mail" target={"_blank"} rel="noreferrer"><Mail/></a>
