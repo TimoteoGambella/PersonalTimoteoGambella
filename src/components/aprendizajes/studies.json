@@ -1,0 +1,74 @@
+[
+    {
+        "titulo":"Skill Up React",
+        "descripcion":"Advanced course of React to accomplish Alkemy’s technical screening.",
+        "lugar":"Alkemy",
+        "año":"",
+        "slide":"left",
+        "estado":"Finished"
+    },
+    {
+        "titulo":"React JS Career 3|3",
+        "descripcion":"Last part of FrontEnd Developer career. Contents: JSX, Routers, Context, Hooks, Firebase. Final project: 9",
+        "lugar":"Coderhouse",
+        "año":"",
+        "slide":"right",
+        "estado":"Finished"
+    },
+    {
+        "titulo":"ReactJs course",
+        "lugar":"Youtube",
+        "año":"",
+        "descripcion":"React advanced course. Contents: JSX, Routers, ES7 & Babel, Events, Express, APIs, Hooks, Firebase. Channel: Raul Palacios",
+        "slide":"left",
+        "estado":"Finished"
+    },
+    {
+        "titulo":"React course",
+        "lugar":"Youtube",
+        "año":"",
+        "descripcion":"React Hooks advanced course. Contents: Hooks, Hook-Form, React-Router, Redux, Ducks, Material UI, Next. Channel: Bluuweb",
+        "slide":"right",
+        "estado":"Finished"
+    },
+    {
+        "titulo":"CSS de cero a experto",
+        "lugar":"Youtube",
+        "año":"",
+        "descripcion":"CSS Advanced course. Contents: Enlarge the use of techniques and best practices. Besides it generates excellent content to show. Channel: Vida MMR",
+        "slide":"left",
+        "estado":"Finished"
+    },
+    {
+        "titulo":"JavaScript Career 2|3",
+        "lugar":"Coderhouse",
+        "año":"",
+        "descripcion":"Second part of FrontEnd Developer career. Contents: JS, Storage/Json, DOM, jQuery, AJAX. Final project: 10",
+        "slide":"right",
+        "estado":"Finished"
+    },
+    {
+        "titulo":"Web Development Career 1/3",
+        "lugar":"Coderhouse",
+        "año":"2021",
+        "descripcion":"First part of FrontEnd Developer career. Contents: HTML, CSS, Bootstrap, SASS, SEO, GitHub. Final Project: 7",
+        "slide":"left",
+        "estado":"Finished"
+    },
+    {
+        "titulo":"FrontEnd Web Developer",
+        "lugar":"Udemy",
+        "año":"",
+        "descripcion":"Advanced course of FrontEnd. Content: HTML Tags, Properties and styles in CSS, Forms, Box Model, Flexbox, Grid, JavaScript general, POO, DOM, Mistakes management. Professor: Global Mentoring Ing. Ubaldo Acosta",
+        "slide":"right",
+        "estado":"Finished"
+    },
+    {
+        "titulo":"Phyton course",
+        "lugar":"Capacitarte",
+        "año":"",
+        "descripcion":"Phyton initial course. From zero to more complex topics. ",
+        "slide":"left",
+        "estado":"Finished"
+    }
+]

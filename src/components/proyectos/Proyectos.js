@@ -39,6 +39,12 @@ export default function Proyectos(){
                     />
                 </Zoom>
                 <Zoom duration={2000}>
+                    <CardProyectos fondo={card8} tipo={"Sitio Ficticio"}
+                        descripcion={["Página desarrollada para practicar React y Next.","Es un sitio web inspirado en Netflix. Consume la API de MTDB.","La página web es 100% responsiva"]}
+                        title={"MoviesPage"} page={"https://movie-page-theta.vercel.app/"} git={"https://github.com/TimoteoGambella/MoviePage"}
+                    />
+                </Zoom>
+                <Zoom duration={2000}>
                     <CardProyectos fondo={card2} tipo={"Sitio Ficticio"}
                         descripcion={["Sitio web inspirado en un local de hamburguesas. Fué entregado como trabajo final del curso 'Desarrollo Web'.","Se utilizo HTML y Sass para lograr la interfaz.","Se utilizó bootstrap en ciertas páginas.","El sitio web es 100% responsive."]}
                         title={"Vikings Burgers"} page={"https://timoteogambella.github.io/pagina-web/index.html"} git={"https://github.com/TimoteoGambella/pagina-web"}
@@ -72,12 +78,6 @@ export default function Proyectos(){
                     <CardProyectos fondo={card7} tipo={"Sitio Ficticio"}
                         descripcion={["Página desarrollada para practicar HTML, CSS (animaciones).","Es una página que muestra la rotacion de un cubo transparente. El mismo superpone el contraste de sus colores generando un efecto visual entretenido.","La página web es 100% responsiva"]}
                         title={"Cubo Dinámico"} page={"https://timoteogambella.github.io/Cubo3DDinamico/"} git={"https://github.com/TimoteoGambella/Cubo3DDinamico"}
-                    />
-                </Zoom>
-                <Zoom duration={2000}>
-                    <CardProyectos fondo={card8} tipo={"Sitio Ficticio"}
-                        descripcion={["Página desarrollada para practicar React y Next.","Es un sitio web inspirado en Netflix. Consume la API de MTDB.","La página web es 100% responsiva"]}
-                        title={"MoviesPage"} page={"https://movie-page-theta.vercel.app/"} git={"https://github.com/TimoteoGambella/MoviePage"}
                     />
                 </Zoom>
             </div>

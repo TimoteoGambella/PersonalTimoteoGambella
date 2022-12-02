@@ -1,21 +1,29 @@
 import React,{useEffect, useState} from "react";
 import "../../css/aprendizajes.css"
 import data from "./estudios.json"
+import data2 from "./studies.json"
 import { Fade, Slide } from "react-awesome-reveal";
 
-export default function Aprendizaje(){
+export default function Aprendizaje({idioma}){
     
     const [estudios,setEstudios]=useState([])
 
     useEffect(()=>{
-        setEstudios(data)
-    },[data])
+        if(idioma==="español"){
+            console.log("HOlA")
+            setEstudios(data)
+        }else if(idioma==="ingles"){
+            console.log("CHAU")
+            setEstudios(data2)
+        }
+    },[idioma])// eslint-disable-line react-hooks/exhaustive-deps
+
 
     return(
         <>
             {estudios.lenght===0?<></>:
-                estudios.map(data=>(
-                    <div className="aprendiazaje" key={data.titulo}>
+                estudios.map((data,i)=>(
+                    <div className="aprendiazaje" key={data.titulo+i}>
                         {data.año!==""?
                         <Fade duration={1500}>
                             <div>

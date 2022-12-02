@@ -7,9 +7,14 @@ import SobreMi from './components/sobremi/Sobremi';
 import Proyectos from "./components/proyectos/Proyectos";
 import Conctactos from "./components/contacto/Contacto";
 import up from "./up.png";
+import idioma1 from "./español.png"
+import idioma2 from "./ingles.png"
+
 export default function App() {
 
   const [display,setDisplay]=useState("none")
+
+  const [idioma,setIdioma]=useState("español")
 
   useEffect(() => {
     AOS.init();
@@ -27,23 +32,28 @@ export default function App() {
         <Header disp={"none"} animation1={"animation-header"} animation2={"setBackground"} height={"100vh"}/>
       :
         <>
-          <Header disp={"flex"} animation1={""} animation2={""} height={"120vh"}/>
+          <Header disp={"flex"} animation1={""} animation2={""} height={"120vh"} idioma={idioma}/>
           <SepLeft/>
           
-          <SobreMi/>
+          <SobreMi idioma={idioma}/>
           
           <SepRight/>
           
-          <Proyectos/>
+          <Proyectos idioma={idioma}/>
 
           <SepLeft/>
 
-          <Conctactos/>
+          <Conctactos idioma={idioma}/>
 
           <div className="container-up">
             <a href="#header">
               <img src={up} alt={"up"} width={50} height={50}/>
             </a>
+          </div>
+
+          <div className="idiomas">
+            <img src={idioma1} alt="IDIOMA" width={50} height={50} onClick={()=>setIdioma("español")}/>
+            <img src={idioma2} alt="IDIOMA" width={50} height={50} onClick={()=>setIdioma("ingles")}/>
           </div>
         </>
       }
