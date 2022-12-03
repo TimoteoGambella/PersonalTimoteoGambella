@@ -88,13 +88,13 @@ export default function Proyectos({idioma}){
                     <Zoom triggerOnce={true} duration={2000}>
                         <CardProyectos fondo={card10} tipo={"Real site"}
                             title={"E-commerce"} page={"https://vikingspage.vercel.app"} git={"#"}
-                            descripcion={["Web Site with e-commerce for a Fast Food Restaurant in Zarate.","The language used is NEXT and consists of an in live store.", "It contains the complete integration of Mercado Pago and other forms of payment." ,"SEO was analysed and it contains Google Analytics. Sass was used for style sheets."]}
+                            descripcion={["Website with e-commerce for a Fast Food Restaurant in Zarate.","NEXT was used and consists of an in live store.", "It contains the complete integration of Mercado Pago and other forms of payment." ,"SEO was analysed and it contains Google Analytics. Sass was used for style sheets."]}
                         />
                     </Zoom>
                     <Zoom triggerOnce={true} duration={2000}>
                         <CardProyectos fondo={card9} tipo={"Test site"}
                             title={"E-commerce"} page={"diseno-e-commerce-vercel.vercel.app"} git={"https://github.com/TimoteoGambella/Diseno-E-Commerce"}
-                            descripcion={["Test E-Commerce Web Site.","Next/ React was used. It contains a non-functional store.", "100% personal design." ,"SASS was used for styleSheets"]}
+                            descripcion={["Test E-Commerce website.","Next/ React was used. It contains a non-functional store.", "100% personal design." ,"SASS was used for styleSheets"]}
                         />
                     </Zoom>
                     <Zoom triggerOnce={true} duration={2000}>
@@ -105,19 +105,19 @@ export default function Proyectos({idioma}){
                     </Zoom>
                     <Zoom triggerOnce={true} duration={2000}>
                         <CardProyectos fondo={card8} tipo={"Test site"}
-                            descripcion={["Page developed to practise REACT and NEXT.","It is a Web Site  inspired  in NETFLIX. It works with the API of MTDB.","The page is 100% responsive."]}
+                            descripcion={["Page developed to practise REACT and NEXT.","It is a website  inspired  in NETFLIX. It works with the API of MTDB.","The page is 100% responsive."]}
                             title={"MoviesPage"} page={"https://movie-page-theta.vercel.app/"} git={"https://github.com/TimoteoGambella/MoviePage"}
                         />
                     </Zoom>
                     <Zoom triggerOnce={true} duration={2000}>
-                        <CardProyectos fondo={card2} tipo={"Test Site"}
-                            descripcion={["Web Site inspired in a Fast Food Store. It was the Final Project for the “Web Development” Course.","HTML and SASS were used for the design.","Bootstrap was used in some pages.","The site is 100% responsive."]}
+                        <CardProyectos fondo={card2} tipo={"Test site"}
+                            descripcion={["Website inspired in a Fast Food Store. It was the Final Project for the “Web Development” Course.","HTML and SASS were used for the design.","Bootstrap was used in some pages.","The site is 100% responsive."]}
                             title={"Vikings Burgers"} page={"https://timoteogambella.github.io/pagina-web/index.html"} git={"https://github.com/TimoteoGambella/pagina-web"}
                         />
                     </Zoom>
                     <Zoom triggerOnce={true} duration={2000}>
-                        <CardProyectos fondo={card3} tipo={"Sitio Ficticio"}
-                            descripcion={["Web Site inspired in a Fast Food Store. It was the Final Project for the “Java Script” Course.","It is an extension of the above mentioned project. It was added the JS logic to take orders. It works with LocalStorage, JQuery, data.Json and API.","The site is not  responsive."]}
+                        <CardProyectos fondo={card3} tipo={"Test site"}
+                            descripcion={["Website inspired in a Fast Food Store. It was the Final Project for the “Java Script” Course.","It is an extension of the above mentioned project. It was added the JS logic to take orders. It works with LocalStorage, JQuery, data.Json and API.","The site is not  responsive."]}
                             title={"Vikings Burgers"} page={"https://timoteogambella.github.io/PaginaWebConJS/"} git={"https://github.com/TimoteoGambella/PaginaWebConJS"}
                         />
                     </Zoom>

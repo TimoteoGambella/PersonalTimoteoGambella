@@ -44,7 +44,7 @@ export default function SobreMi({idioma}){
                         <img src={fotoCarnet} alt="Persona"/>
                     </div>
                     <div>
-                        <a href="https://drive.google.com/file/d/1oV3-LlxGdc42ioaYivVkMLm2l4eiOmlC/view?usp=sharing" target={"_blank"} rel="noreferrer">{idioma==="español"?"Ver CV":"CV"}</a>
+                        <a href={idioma==="español"?"https://drive.google.com/file/d/1oV3-LlxGdc42ioaYivVkMLm2l4eiOmlC/view?usp=sharing":"https://drive.google.com/file/d/12ccrVre7VKmikd8mDuiIRgkm7W2U1B9_/view?usp=share_link"} target={"_blank"} rel="noreferrer">{idioma==="español"?"Ver CV":"CV"}</a>
                         <a href="https://github.com/TimoteoGambella" target={"_blank"} rel="noreferrer">GitHub</a>
                     </div>
                 </div>
