@@ -43,7 +43,7 @@ export default function Proyectos({idioma}){
                     <Zoom triggerOnce={true} duration={2000}>
                         <CardProyectos fondo={card8} tipo={"Sitio Ficticio"}
                             descripcion={["Página desarrollada para practicar React y Next.","Es un sitio web inspirado en Netflix. Consume la API de MTDB.","La página web es 100% responsiva"]}
-                            title={"MoviesPage"} page={"https://movie-page-theta.vercel.app/"} git={"https://github.com/TimoteoGambella/MoviePage"}
+                            title={"MoviesPage"} page={"https://movie-page-theta.vercel.app/"} git={"https://github.com/TimoteoGambella/MoviesPage"}
                         />
                     </Zoom>
                     <Zoom triggerOnce={true} duration={2000}>
