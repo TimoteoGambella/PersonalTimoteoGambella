@@ -18,7 +18,7 @@ export default function CardProyectos({fondo,fondoSML,tipo,descripcion,title,pag
                     </div>
                     <div className="botones">
                         <a href={page} target="_blank" aria-label="Pagina"  rel="noreferrer">Página</a>
-                        <a href={git} target="_blank" aria-label="GitHub"  rel="noreferrer">GitHub</a>
+                        {git!==""&&<a href={git} target="_blank" aria-label="GitHub"  rel="noreferrer">GitHub</a>}
                     </div>
                 </div>
             </div>
