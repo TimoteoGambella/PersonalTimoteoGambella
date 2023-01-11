@@ -24,7 +24,7 @@ export default function Proyectos({idioma}){
                 <>
                     <Zoom triggerOnce={true} duration={2000}>
                         <CardProyectos fondo={card10} tipo={"Sitio Real"}
-                            title={"E-commerce"} page={"https://vikingspage.vercel.app"} git={"#"}
+                            title={"E-commerce"} page={"https://vikingspage.vercel.app"} git={""}
                             descripcion={["Sitio web con e-commerce para emprendimiento gastronómico de Zárate.","Se utilizó Next/React. Consta de una tienda in live.", "Contiene la integración completa de Mercadopago y formas secundarias para los cobros." ,"Se analizó el SEO y contiene Google Analytics. Se utilizó Sass para estilos."]}
                         />
                     </Zoom>
@@ -36,7 +36,7 @@ export default function Proyectos({idioma}){
                     </Zoom>
                     <Zoom triggerOnce={true} duration={2000}>
                         <CardProyectos fondo={card1} tipo={"Sitio Real"}
-                            title={"Rose Aromas"} page={"https://www.rosearomas.com.ar/"} git={"#"}
+                            title={"Rose Aromas"} page={"https://www.rosearomas.com.ar/"} git={""}
                             descripcion={["Sitio web con e-commerce para emprendimiento de Zárate.","Se utilizó Next/React. Contiene 4 páginas estáticas y la tienda funcional.", "Contiene la integración completa de Mercadopago para los cobros." ,"Se analizó el SEO y contiene Google Analytics. Se utilizó Sass para estilos."]}
                         />
                     </Zoom>
