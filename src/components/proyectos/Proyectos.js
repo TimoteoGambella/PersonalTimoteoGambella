@@ -13,6 +13,7 @@ import card7 from "./card7.png"
 import card8 from "./card8.png"
 import card9 from "./card9.png"
 import card10 from "./card10.png"
+import card11 from "./card11.png"
 
 export default function Proyectos({idioma}){
 
@@ -22,6 +23,12 @@ export default function Proyectos({idioma}){
             <div className="proyectos">
                 {idioma==="español"?
                 <>
+                    <Zoom triggerOnce={true} duration={2000}>
+                        <CardProyectos fondo={card11} tipo={"Sitio Ficticio"}
+                            title={"MarvelPage"} page={"https://marvel-project-iota.vercel.app/"} git={"https://github.com/TimoteoGambella/Marvel-Project-Vercel"}
+                            descripcion={["Sitio web diseñado y desarrollado en base a Marvel.","Se utilizo la API oficial de Marvel.", "El proyecto surge de una iniciativa propia de formar grupos para desarrollar."]}
+                        />
+                    </Zoom>
                     <Zoom triggerOnce={true} duration={2000}>
                         <CardProyectos fondo={card10} tipo={"Sitio Real"}
                             title={"E-commerce"} page={"https://vikingspage.vercel.app"} git={""}
