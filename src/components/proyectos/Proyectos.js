@@ -37,7 +37,7 @@ export default function Proyectos({idioma}){
                     </Zoom>
                     <Zoom triggerOnce={true} duration={2000}>
                         <CardProyectos fondo={card9} tipo={"Sitio Ficticio"}
-                            title={"E-commerce"} page={"diseno-e-commerce-vercel.vercel.app"} git={"https://github.com/TimoteoGambella/Diseno-E-Commerce"}
+                            title={"E-commerce"} page={"diseno-e-commerce-vercel.vercel.app"} git={""}
                             descripcion={["Sitio web con e-commerce de prueba.","Se utilizó Next/React. Contiene una tienda no funcional.", "Diseño 100% personal." ,"Se utilizó Sass para estilos."]}
                         />
                     </Zoom>
@@ -50,7 +50,7 @@ export default function Proyectos({idioma}){
                     <Zoom triggerOnce={true} duration={2000}>
                         <CardProyectos fondo={card8} tipo={"Sitio Ficticio"}
                             descripcion={["Página desarrollada para practicar React y Next.","Es un sitio web inspirado en Netflix. Consume la API de MTDB.","La página web es 100% responsiva"]}
-                            title={"MoviesPage"} page={"https://movie-page-theta.vercel.app/"} git={"https://github.com/TimoteoGambella/MoviesPage"}
+                            title={"MoviesPage"} page={"https://movie-page-theta.vercel.app/"} git={""}
                         />
                     </Zoom>
                     <Zoom triggerOnce={true} duration={2000}>
