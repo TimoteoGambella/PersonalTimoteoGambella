@@ -10,10 +10,8 @@ export default function Aprendizaje({idioma}){
 
     useEffect(()=>{
         if(idioma==="español"){
-            console.log("HOlA")
             setEstudios(data)
         }else if(idioma==="ingles"){
-            console.log("CHAU")
             setEstudios(data2)
         }
     },[idioma])// eslint-disable-line react-hooks/exhaustive-deps
