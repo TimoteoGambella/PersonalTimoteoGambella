@@ -17,6 +17,11 @@ export default function App() {
 
   const [idioma,setIdioma]=useState("español")
 
+  fetch("https://mansa2-sandbox.pipedrive.com/api/v1/deals?api_token=8211579748e11549a0f00a79080a2b8f78955e43").then(async(res)=>{
+    const data = await res.json();
+    console.log(data)
+})
+
   useEffect(() => {
     AOS.init();
     AOS.refresh();

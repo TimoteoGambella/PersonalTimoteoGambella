@@ -26,7 +26,7 @@ export default function Proyectos({idioma}){
                 <>
                     <Zoom triggerOnce={true} duration={2000}>
                         <CardProyectos fondo={card12} tipo={"Sitio Ficticio"}
-                            title={"NeedForSpeed"} page={"https://need-for-speed-five.vercel.app/"} git={"https://github.com/TimoteoGambella/Need-For-Speed"}
+                            title={"Need For Speed"} page={"https://need-for-speed-five.vercel.app/"} git={"https://github.com/TimoteoGambella/Need-For-Speed"}
                             descripcion={["Sitio web diseñado y desarrollado en base a Need For Speed.","Se utilizo base de datos en Firebase.", "El proyecto surge de una iniciativa propia de formar grupos para desarrollar."]}
                         />
                     </Zoom>
