@@ -14,6 +14,7 @@ import card8 from "./card8.png"
 import card9 from "./card9.png"
 import card10 from "./card10.png"
 import card11 from "./card11.png"
+import card12 from "./card12.png"
 
 export default function Proyectos({idioma}){
 
@@ -23,6 +24,12 @@ export default function Proyectos({idioma}){
             <div className="proyectos">
                 {idioma==="español"?
                 <>
+                    <Zoom triggerOnce={true} duration={2000}>
+                        <CardProyectos fondo={card12} tipo={"Sitio Ficticio"}
+                            title={"NeedForSpeed"} page={"https://need-for-speed-five.vercel.app/"} git={"https://github.com/TimoteoGambella/Need-For-Speed"}
+                            descripcion={["Sitio web diseñado y desarrollado en base a Need For Speed.","Se utilizo base de datos en Firebase.", "El proyecto surge de una iniciativa propia de formar grupos para desarrollar."]}
+                        />
+                    </Zoom>
                     <Zoom triggerOnce={true} duration={2000}>
                         <CardProyectos fondo={card11} tipo={"Sitio Ficticio"}
                             title={"MarvelPage"} page={"https://marvel-project-iota.vercel.app/"} git={"https://github.com/TimoteoGambella/Marvel-Project-Vercel"}
