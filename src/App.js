@@ -9,7 +9,6 @@ import Conctactos from "./components/contacto/Contacto";
 import up from "./up.png";
 import idioma1 from "./español.png"
 import idioma2 from "./ingles.png"
-import AdSense from "./components/adsense/AdSense";
 
 export default function App() {
 
@@ -33,19 +32,11 @@ export default function App() {
 
   return (
     <>
-      <ins className="adsbygoogle"
-        style={{ display: 'block' }}
-        data-ad-client="ca-pub-1655669335191511"
-        data-ad-slot="4447855162"
-        data-ad-format="auto"
-        data-full-width-responsive="true"></ins>
-
       {display==="none"?
         <Header disp={"none"} animation1={"animation-header"} animation2={"setBackground"} height={"100vh"}/>
       :
         <>
           <Header disp={"flex"} animation1={""} animation2={""} height={"120vh"} idioma={idioma}/>
-          <AdSense/>
           <SepLeft/>
           
           <SobreMi idioma={idioma}/>
